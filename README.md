@@ -52,6 +52,9 @@ Plot of the Pearson's linear correlation between yield and the average NDVI:
 ![resa_ndvi_corr](images_readme/resa_ndvi_corr.png)
 
 ### Extra: Generate a vector file for field application
-Once the interpolated yield or vigor data are obtained, it is possible to convert this information into vector format for the application of precision farming operations.
+Once the interpolated yield or vigor data are obtained, it is possible to convert this information into vector format for the application of precision farming operations.  
+In this case the input raster (Yield interpolated) was filtered to perform smoothing operation on the input data. 
+Then, it was divided in homogeneous areas, in particular by dividing the area into 3 classes (in quantiles 0.25, 0.75, 1). 
+For each homogeneous area identified, a specific program could be established (e.g. differentiated fertilization).  
 
 ![shape_yield](images_readme/shape_3classes.png)
