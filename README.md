@@ -16,3 +16,6 @@ Explanations and implementations of these algorithms are provided, along with ex
 ### Correlation with NDVI: 
 At the end, harvested yield and humidity are correlated with NDVI (Normalized Difference Vegetation Index) calculated over the sunflower coltivation year for the same field.   
 This correlation provides insights into how yield variations relate to vegetation health indicators.  
+
+### Extra: Generate a vector file for field application
+Once the interpolated yield or vigor data are obtained, it is possible to convert this information into vector format for the application of precision farming operations.
